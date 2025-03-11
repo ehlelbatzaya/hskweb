@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хятад хэлний мэдлэг сайжруулах</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app" class="app-container">
+        <!-- Контент будет загружен через JavaScript -->
+        <div class="loading">Уншиж байна...</div>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="videoModalTitle">Видео бичлэг</h3>
+            <div id="videoContainer" class="video-container">
+                <!-- Видео контент будет загружен динамически -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="lang.js"></script>
+    <script src="words.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
